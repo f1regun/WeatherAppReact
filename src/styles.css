@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  height: 100vh;
+  background-image: url("images/clouds.webp");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: 500px;
+  width: 700px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 10px;
+  border-radius: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.weather-today__info-city {
+  font-family: "Roboto", bold;
+  font-size: 40px;
+  margin: 5px;
+}
+
+.weather-today-image {
+  width: 220px;
+}
+
+.weather-box__unit-img {
+  width: 70px;
+}
+
+.weather-today {
+  height: 66%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px 0px 50px;
+}
+
+.weather-today__label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-today__label__temperature {
+  font-family: "Roboto", bold;
+  font-size: 25px;
+  margin: 5px;
+}
+
+.searchLocation {
+  padding: 11px 16px;
+  border: 0px;
+}
+
+.searchLocation:focus {
+  border: 3px solid #b3bbff;
+}
+
+.submit {
+  background-color: #c3a3ffde;
+  border: none;
+  color: white;
+  font-size: 15px;
+  padding: 10px 15px;
+  text-decoration: none;
+  margin: 0px;
+  cursor: pointer;
+}
+
+.weather-today__info {
+  font-family: "Roboto", bold;
+  font-size: 20px;
+}
+
+.weather-today__info-temperature {
+  font-size: 30px;
+  margin: 10px 0px 10px 0px;
+}
+
+.weather-today__info-status {
+  font-family: "Roboto", bold-italic;
+  font-size: 25px;
+  margin: 6px 0px 6px 0px;
+}
+
+._btn {
+  background-color: #c3a3ffde; 
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+._btn:hover {
+  background-color: #a97dfc; 
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+.hold {
+  background-color: #b4b4b4; 
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.weather-box {
+  height: 34%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 5px 0px 5px;
+}
+
+.weather-box__unit {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weather-box__unit-title {
+  font-family: "Roboto", medium;
+  font-size: 23px;
+  margin: 10px 0px 10px 0px;
+}
+
+.weather-box__unit__temperature {
+  font-family: "Roboto", black;
+}
